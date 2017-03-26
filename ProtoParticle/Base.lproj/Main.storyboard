@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="DOg-mL-X3i">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Snow-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SnowViewController" customModule="ProtoParticle" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mountain" translatesAutoresizingMaskIntoConstraints="NO" id="x2F-rb-Akg">
+                                <rect key="frame" x="0.0" y="383" width="375" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="375" id="kWi-ep-bYX"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="314" id="lbk-Zu-Sly"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="x2F-rb-Akg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iqY-fz-dzf"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="x2F-rb-Akg" secondAttribute="bottom" constant="-15" id="xWQ-m6-EOq"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Snow" image="snowing" selectedImage="snowing" id="Bkv-ya-QXV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="138.98050974512745"/>
+        </scene>
+        <!--Facebook Live-->
+        <scene sceneID="aXA-w4-n5k">
+            <objects>
+                <viewController id="K5h-zO-agq" customClass="FacebookLiveViewController" customModule="ProtoParticle" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4jh-6p-fdk"/>
+                        <viewControllerLayoutGuide type="bottom" id="Odx-xW-GcR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3io-r9-hoy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="facebookVideo" translatesAutoresizingMaskIntoConstraints="NO" id="UGd-33-P5d">
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Odx-xW-GcR" firstAttribute="top" secondItem="UGd-33-P5d" secondAttribute="bottom" id="1sT-Wd-4DZ"/>
+                            <constraint firstAttribute="trailing" secondItem="UGd-33-P5d" secondAttribute="trailing" id="938-M6-D0x"/>
+                            <constraint firstItem="UGd-33-P5d" firstAttribute="top" secondItem="4jh-6p-fdk" secondAttribute="bottom" id="ZqN-Eh-PdK"/>
+                            <constraint firstItem="UGd-33-P5d" firstAttribute="leading" secondItem="3io-r9-hoy" secondAttribute="leading" id="xHi-AQ-eqw"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Facebook Live" image="thumb-up" selectedImage="thumb-up" id="ybC-Ri-9hT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TMP-Jd-OmC" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="887"/>
+        </scene>
+        <!--Burn-->
+        <scene sceneID="4ou-WL-5us">
+            <objects>
+                <viewController id="5WU-om-Ov4" customClass="BurnViewController" customModule="ProtoParticle" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VbB-J9-4NX"/>
+                        <viewControllerLayoutGuide type="bottom" id="6Js-3F-8Eo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6fM-Ks-EZO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="volcano" translatesAutoresizingMaskIntoConstraints="NO" id="bkg-qP-953">
+                                <rect key="frame" x="0.0" y="314" width="375" height="314"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="375" id="E9s-XP-37R"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="314" id="kWI-kz-brS"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bkg-qP-953" firstAttribute="centerX" secondItem="6fM-Ks-EZO" secondAttribute="centerX" id="QXD-Af-G9c"/>
+                            <constraint firstItem="6Js-3F-8Eo" firstAttribute="top" secondItem="bkg-qP-953" secondAttribute="bottom" constant="-10" id="uX2-cK-Y3G"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Burn" image="fire" selectedImage="fire" id="KWu-5U-PZS"/>
+                    <connections>
+                        <outlet property="volcanoImageView" destination="bkg-qP-953" id="Ptw-JU-MnO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xWP-lx-CFB" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="1588"/>
+        </scene>
+        <!--Dragon View Controller-->
+        <scene sceneID="OqG-Me-s3y">
+            <objects>
+                <viewController id="zMR-aO-v94" customClass="DragonViewController" customModule="ProtoParticle" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2LP-Ih-IMT"/>
+                        <viewControllerLayoutGuide type="bottom" id="SG7-Zj-XRU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PM6-sr-Ozz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dragon" translatesAutoresizingMaskIntoConstraints="NO" id="I7f-dZ-bLU">
+                                <rect key="frame" x="-4" y="258.5" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="150" id="1h0-ES-xqh"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="150" id="xfR-pL-RZe"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="I7f-dZ-bLU" firstAttribute="leading" secondItem="PM6-sr-Ozz" secondAttribute="leadingMargin" constant="-20" id="PFC-VU-MGp"/>
+                            <constraint firstItem="I7f-dZ-bLU" firstAttribute="centerY" secondItem="PM6-sr-Ozz" secondAttribute="centerY" id="PWb-Qm-0b8"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" selectedImage="dragon" systemItem="recents" id="GUK-nl-Cbm"/>
+                    <connections>
+                        <outlet property="dragonImageView" destination="I7f-dZ-bLU" id="Fe6-0M-c5j"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9T2-NB-jb0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-111" y="1003"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="n9U-cc-p3C">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="DOg-mL-X3i" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="5Ld-65-aBz">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Ylu-Jv-CTA"/>
+                        <segue destination="K5h-zO-agq" kind="relationship" relationship="viewControllers" id="6Ah-HU-m2l"/>
+                        <segue destination="5WU-om-Ov4" kind="relationship" relationship="viewControllers" id="xBX-yB-sTJ"/>
+                        <segue destination="zMR-aO-v94" kind="relationship" relationship="viewControllers" id="LsS-Bc-Scf"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0oA-2W-JVn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dragon" width="512" height="457"/>
+        <image name="facebookVideo" width="750" height="1334"/>
+        <image name="fire" width="32" height="32"/>
+        <image name="mountain" width="410" height="250"/>
+        <image name="snowing" width="32" height="32"/>
+        <image name="thumb-up" width="21" height="20"/>
+        <image name="volcano" width="410" height="328"/>
+    </resources>
+</document>
